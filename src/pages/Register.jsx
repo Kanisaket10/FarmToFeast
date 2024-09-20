@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Register.css';
+import styles from "./Register.css";
 import PageNav from "../components/PageNav";
 import { useNavigate } from 'react-router-dom';
 
@@ -30,6 +30,8 @@ const Register = () => {
   return (
     <main>
       <PageNav />
+      <div className="cover">
+
       <div className="register-container">
       <h2>Register</h2>
       <form onSubmit={handleSubmit}>
@@ -100,7 +102,9 @@ const Register = () => {
         </div>
         <button type="submit">Register</button>
       </form>
-    </div>
+      </div>
+     
+      </div>
 
     </main>
   );

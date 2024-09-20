@@ -1,12 +1,18 @@
 
+.cover{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+
 .register-container {
-    max-width: 500px;
+    max-width: 50rem;
     margin: 0px auto;
     /* height: 100vh; */
-    padding: 20px;
+    padding: 2rem;
     border: 3px solid #ddd;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #42484D;
 }
@@ -15,29 +21,29 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     font-size: 30px;
-     padding-bottom: 30px;
+     font-size: 3rem;
+     padding-bottom: 1rem;
 }
 .form-group {
     margin-bottom: 0;
     /* background-color: #fff; */
-    padding: 0 50px;
+    padding: 0 3rem;
 }
 
 .form-group label {
     display: block;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 1rem;
+    font-size: 2rem;
     /* border: 2px solid #4CAF50; */
 }
 
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 50px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 0.rem solid #ccc;
+    border-radius: 5rem;
 }
 
 .register-as-options {
@@ -56,9 +62,9 @@
 button[type="submit"] {
     background-color: #4CAF50;
     color: #fff;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 5rem;
     cursor: pointer;
 }
 
